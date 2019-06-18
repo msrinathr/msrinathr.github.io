@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Srinath Muskula]]></title><description><![CDATA[Engineer, writing about topics related to technology]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sun, 16 Jun 2019 05:38:29 GMT</lastBuildDate><item><title><![CDATA[Creating My Blog Using Gatsby-React]]></title><description><![CDATA[I will guide you how to create your blog in using gatsby-react and publish posts with very less effort and use markdown, git or AWS S3 to host blog.]]></description><link>undefined/posts/creating-my-blog-using-gatsby-react/</link><guid isPermaLink="false">undefined/posts/creating-my-blog-using-gatsby-react/</guid><pubDate>Fri, 27 Apr 2018 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;I have been learning about different ways to host my blog. Easiest and quick way was to use CMS like Wordpress, this requires a server. Wordpress has lot of features and add-ons to use. For me blog is mostly static posts, you don’t need server to host a static site. Just waste of resources. I started looking at famous static site generators like Hugo, Hexo, Jekyll, Pelican. Then I found Gatsby, it’s a React based static site generator.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Srinath Muskula]]></title><description><![CDATA[Engineer, writing about topics related to technology]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 18 Jun 2019 23:40:38 GMT</lastBuildDate><item><title><![CDATA[Python Virtualenv Setup on Windows]]></title><description><![CDATA[Steps to guide how to install and setup python virtualenv on windows machine]]></description><link>undefined/posts/python-virtualenv-setup-windows/</link><guid isPermaLink="false">undefined/posts/python-virtualenv-setup-windows/</guid><pubDate>Tue, 18 Jun 2019 14:10:00 GMT</pubDate><content:encoded>&lt;p&gt;Recently, I switched from Mac to Windows laptop. I installed python 3.x and was thinking to start building application. For this I wanted to install Django.
+It’s always a good practice to use virtualenv when you are working on multiple projects and installing various packages specific to those projects.
+With virtualenv clean up would be very easy and you don’t want to keep unwanted packages installed on machine which you may not use often.&lt;/p&gt;
+&lt;p&gt;I couldn’t find much information about how to setup virtualenv on windows, activate and deactivate.&lt;/p&gt;
+&lt;p&gt;Assuming you have aleady installed python, that should have installed pip along with python. Check pip installation by opening cmd(command) window by typing:  &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;pip --version&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If not installed go to &lt;strong&gt;Settings &gt; Apps &gt; Python&lt;/strong&gt;, open to change the installation, include pip and save. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Steps to install virtualenv and activate:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check/Install Python and pip&lt;/li&gt;
+&lt;li&gt;Install virtualenv&lt;/li&gt;
+&lt;li&gt;Install virtualenvwrapper-win&lt;/li&gt;
+&lt;li&gt;Create virtual env (mkvirtualenv project101)&lt;/li&gt;
+&lt;li&gt;Set project directory (setprojectdir)&lt;/li&gt;
+&lt;li&gt;Deactivate virtual env (deactivate)&lt;/li&gt;
+&lt;li&gt;Reactivating previous virtual env (workon project101)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once you have confirmed that pip is installed on your machine.  Install virtualenv using this command:  &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;pip install virtualenv&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Windows require another wrapper on top of the virtualenv, this can be installed by  &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;pip install virtualenvwrapper-win&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Create virtualenv for the project with this command &lt;code class=&quot;language-text&quot;&gt;mkvirtualenv project101&lt;/code&gt; in this project101 is your custom project name.&lt;/p&gt;
+&lt;p&gt;Create a project folder, navigate to the folder and set this directory as project folder &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;setprojectdir&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Install packages required for your project, these packages cannot be accessed outsite of this virtualenv.&lt;/p&gt;
+&lt;p&gt;You can come out of the virtualenv by deactivating &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;deactivate&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To continue with existing virtualenv use workon as &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;workon project101&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;Hope this helps you to setup python virtualenv on windows and get you work on next exciting py project.&lt;/p&gt;
+&lt;hr&gt;</content:encoded></item><item><title><![CDATA[Creating My Blog Using Gatsby-React]]></title><description><![CDATA[I will guide you how to create your blog in using gatsby-react and publish posts with very less effort and use markdown, git or AWS S3 to host blog.]]></description><link>undefined/posts/creating-my-blog-using-gatsby-react/</link><guid isPermaLink="false">undefined/posts/creating-my-blog-using-gatsby-react/</guid><pubDate>Fri, 27 Apr 2018 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;I have been learning about different ways to host my blog. Easiest and quick way was to use CMS like Wordpress, this requires a server. Wordpress has lot of features and add-ons to use. For me blog is mostly static posts, you don’t need server to host a static site. Just waste of resources. I started looking at famous static site generators like Hugo, Hexo, Jekyll, Pelican. Then I found Gatsby, it’s a React based static site generator.&lt;/p&gt;
 &lt;p&gt;I will guide you with below steps:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Setting up Gatsby&lt;/li&gt;
